@@ -1,0 +1,8 @@
+node_modules/
+data/*.json
+!data/.gitkeep
+.env
+.DS_Store
+playwright-report/
+test-results/
+*.log

@@ -1,0 +1,28 @@
+{
+  "name": "tool-game",
+  "version": "1.0.0",
+  "description": "Browser automation tool with Playwright",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "run:visible": "HEADLESS=false node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HungTruong-97/tool-game.git"
+  },
+  "keywords": ["playwright", "automation", "browser"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HungTruong-97/tool-game/issues"
+  },
+  "homepage": "https://github.com/HungTruong-97/tool-game#readme",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
